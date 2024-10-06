@@ -28,9 +28,10 @@ try {
   );
 
   const scatterPlot = createScatterPlot(INPUT_JSON, {
+    label: "LLM's Name",
     x: "LLM's Release Date",
     y: "LLM's Parameters in Billion",
-    label: "LLM's Name",
+    title: "Open LLM's Parameters in Billion versus Release Date",
     colorDark: '#222',
     colorLight: '#eee',
     fontFamily: 'Calibri, sans-serif',

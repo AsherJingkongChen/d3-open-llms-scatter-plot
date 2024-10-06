@@ -9,6 +9,7 @@ export function createScatterPlot(
     label?: string;
     x?: string;
     y?: string;
+    title?: string;
     colorDark?: string;
     colorLight?: string;
     fontFamily?: string;
@@ -16,10 +17,11 @@ export function createScatterPlot(
 ): SVGSVGElement | undefined {
   // Specifying the data
 
-  const { label, x, y, colorDark, colorLight, fontFamily } = {
+  const { label, x, y, title, colorDark, colorLight, fontFamily } = {
     label: 'label',
     x: 'x',
     y: 'y',
+    title: 'Scatter Plot',
     colorDark: '#000',
     colorLight: '#fff',
     fontFamily: 'sans-serif',
@@ -85,7 +87,7 @@ export function createScatterPlot(
     .attr('text-anchor', 'middle')
     .attr('fill', colorDark)
     .attr('font-family', fontFamily)
-    .attr('font-size', '15px')
+    .attr('font-size', '16px')
     .text(x);
 
   // Plot the y-axis
@@ -114,7 +116,7 @@ export function createScatterPlot(
     .attr('text-anchor', 'middle')
     .attr('fill', colorDark)
     .attr('font-family', fontFamily)
-    .attr('font-size', '15px')
+    .attr('font-size', '16px')
     .text(y);
 
   // Plot the labels
@@ -160,6 +162,19 @@ export function createScatterPlot(
       const labelId = `label-${d[label]}`;
       return `document.getElementById('${labelId}').style.display='none'`;
     });
+
+  // Plot the title
+
+  canvas
+    .append('text')
+    .attr('x', margin.left + width / 2)
+    .attr('y', 20)
+    .attr('text-anchor', 'middle')
+    .attr('fill', colorDark)
+    .attr('font-family', fontFamily)
+    .attr('font-size', '20px')
+    .style('font-weight', 'bold')
+    .text(title);
 
   return canvas.node() ?? undefined;
 }
