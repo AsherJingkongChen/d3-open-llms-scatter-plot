@@ -3,13 +3,12 @@ import { JSDOM } from 'jsdom';
 // Create operations
 
 export function createDocument(html?: string): Document {
-  const doc = new JSDOM(html, {
-    contentType: 'text/html',
-  }).window.document;
-  if (typeof document === 'undefined') {
-    global.document = doc;
+  const options = { contentType: 'text/html' };
+  const { document } = new JSDOM(html, options).window;
+  if (typeof global.document === 'undefined') {
+    global.document = document;
   }
-  return doc;
+  return document;
 }
 
 // Read operations
@@ -18,7 +17,7 @@ export function readDocument<E extends Element = Element>(
   document: Document,
   selector: string,
 ): E | undefined {
-  return document.querySelector(selector) as E ?? undefined;
+  return (document.querySelector(selector) as E) ?? undefined;
 }
 
 export function readDocumentToString(document: Document): string {
@@ -29,7 +28,7 @@ export function readElement<E extends Element = Element>(
   element: Element | undefined,
   selector: string,
 ): E | undefined {
-  return element?.querySelector(selector) as E ?? undefined;
+  return (element?.querySelector(selector) as E) ?? undefined;
 }
 
 export function readElementAll<E extends Element = Element>(

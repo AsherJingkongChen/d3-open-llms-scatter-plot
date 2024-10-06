@@ -24,7 +24,9 @@ try {
   );
   const output = table.slice(1).map((row) => {
     const modelName = row[0];
-    const releaseDate = row[1] ? new Date(row[1]).toLocaleDateString('zh-TW') : undefined;
+    const releaseDate = row[1]
+      ? new Date(row[1]).toLocaleDateString('zh-TW')
+      : null;
     const parametersTexts = row[4]?.replace(' - ', ', ').split(', ') ?? [];
     const parameters = Number(parametersTexts[parametersTexts.length - 1]);
     return {
@@ -33,7 +35,7 @@ try {
       'Parameters in Billion': parameters,
     };
   });
-  const outputTextJson = JSON.stringify(output, null, 2);
+  const outputTextJson = JSON.stringify(output, null, 2) + '\n';
 
   // Writing the output files.
 
