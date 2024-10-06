@@ -23,16 +23,16 @@ try {
     readDocument<HTMLTableElement>(document, 'table'),
   );
   const output = table.slice(1).map((row) => {
-    const modelName = row[0];
+    const llmName = row[0];
     const releaseDate = row[1]
       ? new Date(row[1]).toLocaleDateString('zh-TW')
       : null;
     const parametersTexts = row[4]?.replace(' - ', ', ').split(', ') ?? [];
     const parameters = Number(parametersTexts[parametersTexts.length - 1]);
     return {
-      'Model Name': modelName,
-      'Release Date': releaseDate,
-      'Parameters in Billion': parameters,
+      "LLM's Name": llmName,
+      "LLM's Release Date": releaseDate,
+      "LLM's Parameters in Billion": parameters,
     };
   });
   const outputTextJson = JSON.stringify(output, null, 2) + '\n';

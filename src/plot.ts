@@ -87,7 +87,7 @@ export function createScatterPlot(
   // Plot the y-axis
 
   const yScale = d3
-    .scaleLinear()
+    .scaleSqrt()
     .domain([0, d3.max(data, (d: any) => d[y]) + 5])
     .range([height, 0]);
 

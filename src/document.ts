@@ -7,6 +7,8 @@ export function createDocument(html?: string): Document {
   const { document } = new JSDOM(html, options).window;
   if (typeof global.document === 'undefined') {
     global.document = document;
+    global.XMLSerializer = document.defaultView!.XMLSerializer;
+    global.Image = document.defaultView!.Image;
   }
   return document;
 }

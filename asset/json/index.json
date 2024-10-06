@@ -1,317 +1,317 @@
 [
   {
-    "Model Name": "T5",
-    "Release Date": "2019/10/1",
-    "Parameters in Billion": 11
+    "LLM's Name": "T5",
+    "LLM's Release Date": "2019/10/1",
+    "LLM's Parameters in Billion": 11
   },
   {
-    "Model Name": "RWKV 4",
-    "Release Date": "2021/8/1",
-    "Parameters in Billion": 14
+    "LLM's Name": "RWKV 4",
+    "LLM's Release Date": "2021/8/1",
+    "LLM's Parameters in Billion": 14
   },
   {
-    "Model Name": "GPT-NeoX-20B",
-    "Release Date": "2022/4/1",
-    "Parameters in Billion": 20
+    "LLM's Name": "GPT-NeoX-20B",
+    "LLM's Release Date": "2022/4/1",
+    "LLM's Parameters in Billion": 20
   },
   {
-    "Model Name": "YaLM-100B",
-    "Release Date": "2022/6/1",
-    "Parameters in Billion": 100
+    "LLM's Name": "YaLM-100B",
+    "LLM's Release Date": "2022/6/1",
+    "LLM's Parameters in Billion": 100
   },
   {
-    "Model Name": "UL2",
-    "Release Date": "2022/10/1",
-    "Parameters in Billion": 20
+    "LLM's Name": "UL2",
+    "LLM's Release Date": "2022/10/1",
+    "LLM's Parameters in Billion": 20
   },
   {
-    "Model Name": "Bloom",
-    "Release Date": "2022/11/1",
-    "Parameters in Billion": 176
+    "LLM's Name": "Bloom",
+    "LLM's Release Date": "2022/11/1",
+    "LLM's Parameters in Billion": 176
   },
   {
-    "Model Name": "ChatGLM",
-    "Release Date": "2023/3/1",
-    "Parameters in Billion": 6
+    "LLM's Name": "ChatGLM",
+    "LLM's Release Date": "2023/3/1",
+    "LLM's Parameters in Billion": 6
   },
   {
-    "Model Name": "Cerebras-GPT",
-    "Release Date": "2023/3/1",
-    "Parameters in Billion": 13
+    "LLM's Name": "Cerebras-GPT",
+    "LLM's Release Date": "2023/3/1",
+    "LLM's Parameters in Billion": 13
   },
   {
-    "Model Name": "Open Assistant (Pythia family)",
-    "Release Date": "2023/3/1",
-    "Parameters in Billion": 12
+    "LLM's Name": "Open Assistant (Pythia family)",
+    "LLM's Release Date": "2023/3/1",
+    "LLM's Parameters in Billion": 12
   },
   {
-    "Model Name": "Pythia",
-    "Release Date": "2023/4/1",
-    "Parameters in Billion": 12
+    "LLM's Name": "Pythia",
+    "LLM's Release Date": "2023/4/1",
+    "LLM's Parameters in Billion": 12
   },
   {
-    "Model Name": "Dolly",
-    "Release Date": "2023/4/1",
-    "Parameters in Billion": 12
+    "LLM's Name": "Dolly",
+    "LLM's Release Date": "2023/4/1",
+    "LLM's Parameters in Billion": 12
   },
   {
-    "Model Name": "StableLM-Alpha",
-    "Release Date": "2023/4/1",
-    "Parameters in Billion": 65
+    "LLM's Name": "StableLM-Alpha",
+    "LLM's Release Date": "2023/4/1",
+    "LLM's Parameters in Billion": 65
   },
   {
-    "Model Name": "FastChat-T5",
-    "Release Date": "2023/4/1",
-    "Parameters in Billion": 3
+    "LLM's Name": "FastChat-T5",
+    "LLM's Release Date": "2023/4/1",
+    "LLM's Parameters in Billion": 3
   },
   {
-    "Model Name": "DLite",
-    "Release Date": "2023/5/1",
-    "Parameters in Billion": 1.5
+    "LLM's Name": "DLite",
+    "LLM's Release Date": "2023/5/1",
+    "LLM's Parameters in Billion": 1.5
   },
   {
-    "Model Name": "h2oGPT",
-    "Release Date": "2023/5/1",
-    "Parameters in Billion": 20
+    "LLM's Name": "h2oGPT",
+    "LLM's Release Date": "2023/5/1",
+    "LLM's Parameters in Billion": 20
   },
   {
-    "Model Name": "MPT-7B",
-    "Release Date": "2023/5/1",
-    "Parameters in Billion": 7
+    "LLM's Name": "MPT-7B",
+    "LLM's Release Date": "2023/5/1",
+    "LLM's Parameters in Billion": 7
   },
   {
-    "Model Name": "RedPajama-INCITE",
-    "Release Date": "2023/5/1",
-    "Parameters in Billion": 7
+    "LLM's Name": "RedPajama-INCITE",
+    "LLM's Release Date": "2023/5/1",
+    "LLM's Parameters in Billion": 7
   },
   {
-    "Model Name": "OpenLLaMA",
-    "Release Date": "2023/5/1",
-    "Parameters in Billion": 7
+    "LLM's Name": "OpenLLaMA",
+    "LLM's Release Date": "2023/5/1",
+    "LLM's Parameters in Billion": 7
   },
   {
-    "Model Name": "Falcon",
-    "Release Date": "2023/5/1",
-    "Parameters in Billion": 7
+    "LLM's Name": "Falcon",
+    "LLM's Release Date": "2023/5/1",
+    "LLM's Parameters in Billion": 7
   },
   {
-    "Model Name": "GPT-J-6B",
-    "Release Date": "2023/6/1",
-    "Parameters in Billion": 6
+    "LLM's Name": "GPT-J-6B",
+    "LLM's Release Date": "2023/6/1",
+    "LLM's Parameters in Billion": 6
   },
   {
-    "Model Name": "MPT-30B",
-    "Release Date": "2023/6/1",
-    "Parameters in Billion": 30
+    "LLM's Name": "MPT-30B",
+    "LLM's Release Date": "2023/6/1",
+    "LLM's Parameters in Billion": 30
   },
   {
-    "Model Name": "LLaMA 2",
-    "Release Date": "2023/6/1",
-    "Parameters in Billion": 70
+    "LLM's Name": "LLaMA 2",
+    "LLM's Release Date": "2023/6/1",
+    "LLM's Parameters in Billion": 70
   },
   {
-    "Model Name": "ChatGLM2",
-    "Release Date": "2023/6/1",
-    "Parameters in Billion": 6
+    "LLM's Name": "ChatGLM2",
+    "LLM's Release Date": "2023/6/1",
+    "LLM's Parameters in Billion": 6
   },
   {
-    "Model Name": "XGen-7B",
-    "Release Date": "2023/6/1",
-    "Parameters in Billion": 7
+    "LLM's Name": "XGen-7B",
+    "LLM's Release Date": "2023/6/1",
+    "LLM's Parameters in Billion": 7
   },
   {
-    "Model Name": "Jais-13b",
-    "Release Date": "2023/8/1",
-    "Parameters in Billion": 13
+    "LLM's Name": "Jais-13b",
+    "LLM's Release Date": "2023/8/1",
+    "LLM's Parameters in Billion": 13
   },
   {
-    "Model Name": "OpenHermes",
-    "Release Date": "2023/9/1",
-    "Parameters in Billion": 13
+    "LLM's Name": "OpenHermes",
+    "LLM's Release Date": "2023/9/1",
+    "LLM's Parameters in Billion": 13
   },
   {
-    "Model Name": "OpenLM",
-    "Release Date": "2023/9/1",
-    "Parameters in Billion": 7
+    "LLM's Name": "OpenLM",
+    "LLM's Release Date": "2023/9/1",
+    "LLM's Parameters in Billion": 7
   },
   {
-    "Model Name": "Mistral 7B",
-    "Release Date": "2023/9/1",
-    "Parameters in Billion": 7
+    "LLM's Name": "Mistral 7B",
+    "LLM's Release Date": "2023/9/1",
+    "LLM's Parameters in Billion": 7
   },
   {
-    "Model Name": "ChatGLM3",
-    "Release Date": "2023/10/1",
-    "Parameters in Billion": 6
+    "LLM's Name": "ChatGLM3",
+    "LLM's Release Date": "2023/10/1",
+    "LLM's Parameters in Billion": 6
   },
   {
-    "Model Name": "Skywork",
-    "Release Date": "2023/10/1",
-    "Parameters in Billion": 13
+    "LLM's Name": "Skywork",
+    "LLM's Release Date": "2023/10/1",
+    "LLM's Parameters in Billion": 13
   },
   {
-    "Model Name": "Jais-30b",
-    "Release Date": "2023/11/1",
-    "Parameters in Billion": 30
+    "LLM's Name": "Jais-30b",
+    "LLM's Release Date": "2023/11/1",
+    "LLM's Parameters in Billion": 30
   },
   {
-    "Model Name": "Zephyr",
-    "Release Date": "2023/11/1",
-    "Parameters in Billion": 7
+    "LLM's Name": "Zephyr",
+    "LLM's Release Date": "2023/11/1",
+    "LLM's Parameters in Billion": 7
   },
   {
-    "Model Name": "DeepSeek",
-    "Release Date": "2023/11/1",
-    "Parameters in Billion": 67
+    "LLM's Name": "DeepSeek",
+    "LLM's Release Date": "2023/11/1",
+    "LLM's Parameters in Billion": 67
   },
   {
-    "Model Name": "Mistral 7B v0.2",
-    "Release Date": "2023/12/1",
-    "Parameters in Billion": 7
+    "LLM's Name": "Mistral 7B v0.2",
+    "LLM's Release Date": "2023/12/1",
+    "LLM's Parameters in Billion": 7
   },
   {
-    "Model Name": "Mixtral 8x7B v0.1",
-    "Release Date": "2023/12/1",
-    "Parameters in Billion": 46.7
+    "LLM's Name": "Mixtral 8x7B v0.1",
+    "LLM's Release Date": "2023/12/1",
+    "LLM's Parameters in Billion": 46.7
   },
   {
-    "Model Name": "LLM360 Amber",
-    "Release Date": "2023/12/1",
-    "Parameters in Billion": 6.7
+    "LLM's Name": "LLM360 Amber",
+    "LLM's Release Date": "2023/12/1",
+    "LLM's Parameters in Billion": 6.7
   },
   {
-    "Model Name": "SOLAR",
-    "Release Date": "2023/12/1",
-    "Parameters in Billion": 10.7
+    "LLM's Name": "SOLAR",
+    "LLM's Release Date": "2023/12/1",
+    "LLM's Parameters in Billion": 10.7
   },
   {
-    "Model Name": "phi-2",
-    "Release Date": "2023/12/1",
-    "Parameters in Billion": 2.7
+    "LLM's Name": "phi-2",
+    "LLM's Release Date": "2023/12/1",
+    "LLM's Parameters in Billion": 2.7
   },
   {
-    "Model Name": "FLOR",
-    "Release Date": "2023/12/1",
-    "Parameters in Billion": 6.3
+    "LLM's Name": "FLOR",
+    "LLM's Release Date": "2023/12/1",
+    "LLM's Parameters in Billion": 6.3
   },
   {
-    "Model Name": "RWKV 5 v2",
-    "Release Date": "2024/1/1",
-    "Parameters in Billion": 7
+    "LLM's Name": "RWKV 5 v2",
+    "LLM's Release Date": "2024/1/1",
+    "LLM's Parameters in Billion": 7
   },
   {
-    "Model Name": "OLMo",
-    "Release Date": "2024/2/1",
-    "Parameters in Billion": null
+    "LLM's Name": "OLMo",
+    "LLM's Release Date": "2024/2/1",
+    "LLM's Parameters in Billion": null
   },
   {
-    "Model Name": "Qwen1.5",
-    "Release Date": "2024/2/1",
-    "Parameters in Billion": 72
+    "LLM's Name": "Qwen1.5",
+    "LLM's Release Date": "2024/2/1",
+    "LLM's Parameters in Billion": 72
   },
   {
-    "Model Name": "LWM",
-    "Release Date": "2024/2/1",
-    "Parameters in Billion": 7
+    "LLM's Name": "LWM",
+    "LLM's Release Date": "2024/2/1",
+    "LLM's Parameters in Billion": 7
   },
   {
-    "Model Name": "Jais-30b v3",
-    "Release Date": "2024/3/1",
-    "Parameters in Billion": 30
+    "LLM's Name": "Jais-30b v3",
+    "LLM's Release Date": "2024/3/1",
+    "LLM's Parameters in Billion": 30
   },
   {
-    "Model Name": "Gemma",
-    "Release Date": "2024/2/1",
-    "Parameters in Billion": null
+    "LLM's Name": "Gemma",
+    "LLM's Release Date": "2024/2/1",
+    "LLM's Parameters in Billion": null
   },
   {
-    "Model Name": "Grok-1",
-    "Release Date": "2024/3/1",
-    "Parameters in Billion": 314
+    "LLM's Name": "Grok-1",
+    "LLM's Release Date": "2024/3/1",
+    "LLM's Parameters in Billion": 314
   },
   {
-    "Model Name": "Qwen1.5 MoE",
-    "Release Date": "2024/3/1",
-    "Parameters in Billion": 14.3
+    "LLM's Name": "Qwen1.5 MoE",
+    "LLM's Release Date": "2024/3/1",
+    "LLM's Parameters in Billion": 14.3
   },
   {
-    "Model Name": "Jamba 0.1",
-    "Release Date": "2024/3/1",
-    "Parameters in Billion": 52
+    "LLM's Name": "Jamba 0.1",
+    "LLM's Release Date": "2024/3/1",
+    "LLM's Parameters in Billion": 52
   },
   {
-    "Model Name": "Qwen1.5 32B",
-    "Release Date": "2024/4/1",
-    "Parameters in Billion": 32
+    "LLM's Name": "Qwen1.5 32B",
+    "LLM's Release Date": "2024/4/1",
+    "LLM's Parameters in Billion": 32
   },
   {
-    "Model Name": "Mamba-7B",
-    "Release Date": "2024/4/1",
-    "Parameters in Billion": 7
+    "LLM's Name": "Mamba-7B",
+    "LLM's Release Date": "2024/4/1",
+    "LLM's Parameters in Billion": 7
   },
   {
-    "Model Name": "Mixtral8x22B v0.1",
-    "Release Date": "2024/4/1",
-    "Parameters in Billion": 141
+    "LLM's Name": "Mixtral8x22B v0.1",
+    "LLM's Release Date": "2024/4/1",
+    "LLM's Parameters in Billion": 141
   },
   {
-    "Model Name": "Llama 3",
-    "Release Date": "2024/4/1",
-    "Parameters in Billion": 70
+    "LLM's Name": "Llama 3",
+    "LLM's Release Date": "2024/4/1",
+    "LLM's Parameters in Billion": 70
   },
   {
-    "Model Name": "Phi-3 Mini",
-    "Release Date": "2024/4/1",
-    "Parameters in Billion": 3.8
+    "LLM's Name": "Phi-3 Mini",
+    "LLM's Release Date": "2024/4/1",
+    "LLM's Parameters in Billion": 3.8
   },
   {
-    "Model Name": "OpenELM",
-    "Release Date": "2024/4/1",
-    "Parameters in Billion": 3
+    "LLM's Name": "OpenELM",
+    "LLM's Release Date": "2024/4/1",
+    "LLM's Parameters in Billion": 3
   },
   {
-    "Model Name": "Snowflake Arctic",
-    "Release Date": "2024/4/1",
-    "Parameters in Billion": 480
+    "LLM's Name": "Snowflake Arctic",
+    "LLM's Release Date": "2024/4/1",
+    "LLM's Parameters in Billion": 480
   },
   {
-    "Model Name": "Qwen1.5 110B",
-    "Release Date": "2024/4/1",
-    "Parameters in Billion": 110
+    "LLM's Name": "Qwen1.5 110B",
+    "LLM's Release Date": "2024/4/1",
+    "LLM's Parameters in Billion": 110
   },
   {
-    "Model Name": "RWKV 6 v2.1",
-    "Release Date": "2024/5/1",
-    "Parameters in Billion": 7
+    "LLM's Name": "RWKV 6 v2.1",
+    "LLM's Release Date": "2024/5/1",
+    "LLM's Parameters in Billion": 7
   },
   {
-    "Model Name": "DeepSeek-V2",
-    "Release Date": "2024/5/1",
-    "Parameters in Billion": 236
+    "LLM's Name": "DeepSeek-V2",
+    "LLM's Release Date": "2024/5/1",
+    "LLM's Parameters in Billion": 236
   },
   {
-    "Model Name": "Fugaku-LLM",
-    "Release Date": "2024/5/1",
-    "Parameters in Billion": 13
+    "LLM's Name": "Fugaku-LLM",
+    "LLM's Release Date": "2024/5/1",
+    "LLM's Parameters in Billion": 13
   },
   {
-    "Model Name": "Falcon 2",
-    "Release Date": "2024/5/1",
-    "Parameters in Billion": 11
+    "LLM's Name": "Falcon 2",
+    "LLM's Release Date": "2024/5/1",
+    "LLM's Parameters in Billion": 11
   },
   {
-    "Model Name": "Yi-1.5",
-    "Release Date": "2024/5/1",
-    "Parameters in Billion": 34
+    "LLM's Name": "Yi-1.5",
+    "LLM's Release Date": "2024/5/1",
+    "LLM's Parameters in Billion": 34
   },
   {
-    "Model Name": "DeepSeek-V2-Lite",
-    "Release Date": "2024/5/1",
-    "Parameters in Billion": 16
+    "LLM's Name": "DeepSeek-V2-Lite",
+    "LLM's Release Date": "2024/5/1",
+    "LLM's Parameters in Billion": 16
   },
   {
-    "Model Name": "Phi-3 small/medium",
-    "Release Date": "2024/5/1",
-    "Parameters in Billion": 14
+    "LLM's Name": "Phi-3 small/medium",
+    "LLM's Release Date": "2024/5/1",
+    "LLM's Parameters in Billion": 14
   }
 ]
