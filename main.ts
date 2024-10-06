@@ -35,7 +35,11 @@ try {
     colorLight: '#eee',
     fontFamily: 'Calibri, sans-serif',
   });
-  appendDocument(document, '.block-0-1 .plot', readElementToString(scatterPlot));
+  appendDocument(
+    document,
+    '.block-0-1 .plot',
+    readElementToString(scatterPlot),
+  );
 
   const outputTextHtml = minifyHtml(readDocumentToString(document));
 
