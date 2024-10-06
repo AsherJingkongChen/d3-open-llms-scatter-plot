@@ -8,7 +8,8 @@
   "scripts": {
     "b": "bun main.ts",
     "format": "prettier --write .",
-    "start": "bun --hot main.ts"
+    "make-data": "bun make-data.ts",
+    "start": "bun --watch main.ts"
   },
   "engines": {
     "bun": ">=1.1.29"
@@ -21,8 +22,9 @@
   },
   "dependencies": {
     "d3": "^7.9.0",
-    "html-minifier": "^4.0.0",
     "jsdom": "^25.0.1",
+    "html-minifier": "^4.0.0",
+    "marked": "^14.1.2",
     "sass": "^1.79.4"
   }
 }

@@ -1,5 +1,7 @@
 import { JSDOM } from 'jsdom';
 
+// Create operations
+
 export function createDocument(html?: string): Document {
   const doc = new JSDOM(html, {
     contentType: 'text/html',
@@ -9,6 +11,8 @@ export function createDocument(html?: string): Document {
   }
   return doc;
 }
+
+// Read operations
 
 export function readDocument<E extends Element = Element>(
   document: Document,
@@ -39,6 +43,14 @@ export function readElementToString(element?: Element): string {
   return element?.outerHTML ?? '';
 }
 
+export function readTableElement(table?: HTMLTableElement) {
+  return Array.from(table?.rows ?? [], (row) =>
+    Array.from(row.cells, (cell) => cell.textContent),
+  );
+}
+
+// Write operations
+
 export function writeDocument(
   document: Document,
   selector: string,
@@ -60,6 +72,8 @@ export function writeElement(
     element.innerHTML = html;
   }
 }
+
+// Append operations
 
 export function appendDocument(
   document: Document,

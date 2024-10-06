@@ -4,13 +4,14 @@ import {
   createDocument,
   fs,
   minifyHtml,
-  readDocumentToHtml,
+  readDocumentToString,
 } from './src/lib';
 
 // Specifying the parameters
 
 import INPUT_TEXT_HTML from './asset/html/index.html' with { type: 'text' };
 import INPUT_TEXT_SASS from './asset/sass/index.sass' with { type: 'text' };
+
 const OUTPUT_DIR = 'dist';
 const OUTPUT_FILE_HTML = `${OUTPUT_DIR}/index.html`;
 
@@ -25,10 +26,12 @@ try {
     `<style>${compileSass(INPUT_TEXT_SASS)}</style>`,
   );
 
+  const outputTextHtml = minifyHtml(readDocumentToString(document));
+
   // Writing the output files.
 
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-  Bun.write(OUTPUT_FILE_HTML, minifyHtml(readDocumentToHtml(document)));
+  Bun.write(OUTPUT_FILE_HTML, outputTextHtml);
 } catch (error) {
   // Displaying the error at the console.
 
