@@ -8,6 +8,10 @@
 - Using [Bun](https://bun.sh/) to build HTML files.
 - Using [open-llms](https://github.com/eugeneyan/open-llms)'s data.
 
+## Preview
+
+<img alt="Preview" src="./pic.jpg" style="width: 35em;">
+
 ## Installation
 
 ```shell
