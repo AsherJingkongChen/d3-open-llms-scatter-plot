@@ -1,28 +1,28 @@
 import {
-  createDocument,
-  readDocumentToHtml,
-  fs,
-  preprocessSassFile,
-  minifyHtml,
   appendDocument,
+  compileSass,
+  createDocument,
+  fs,
+  minifyHtml,
+  readDocumentToHtml,
 } from './src/lib';
 
 // Specifying the parameters
 
-import INPUT_FILE_HTML from './asset/html/index.html';
-import INPUT_FILE_SASS from './asset/sass/index.sass';
+import INPUT_TEXT_HTML from './asset/html/index.html' with { type: 'text' };
+import INPUT_TEXT_SASS from './asset/sass/index.sass' with { type: 'text' };
 const OUTPUT_DIR = 'dist';
 const OUTPUT_FILE_HTML = `${OUTPUT_DIR}/index.html`;
 
 try {
   // Building the HTML document.
 
-  const document = await createDocument(await Bun.file(INPUT_FILE_HTML).text());
+  const document = createDocument(INPUT_TEXT_HTML);
 
   appendDocument(
     document,
     'head',
-    `<style>${preprocessSassFile(INPUT_FILE_SASS)}</style>`,
+    `<style>${compileSass(INPUT_TEXT_SASS)}</style>`,
   );
 
   // Writing the output files.

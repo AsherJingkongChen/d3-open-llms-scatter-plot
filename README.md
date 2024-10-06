@@ -4,8 +4,8 @@
 
 ## Features
 
-* Using [D3.js](https://d3js.org/) to build plots.
-* Using [Bun](https://bun.sh/) to build HTML files.
+- Using [D3.js](https://d3js.org/) to build plots.
+- Using [Bun](https://bun.sh/) to build HTML files.
 
 ## Installation
 
@@ -17,13 +17,13 @@ bun i
 
 ## Usage
 
-* For building only:
+- For building only:
 
 ```shell
 bun b
 ```
 
-* For development:
+- For development:
 
 ```shell
 bun start
