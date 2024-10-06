@@ -39,10 +39,10 @@ body
   -webkit-font-smoothing: antialiased
 
 main
-  height: 100vh
-  height: 100dvh
-  width: 100vw
-  width: 100dvw
+  min-height: 100vh
+  min-height: 100dvh
+  min-width: 100vw
+  min-width: 100dvw
 
 .block
   background-color: #eee
@@ -50,11 +50,12 @@ main
   display: block
   height: 100%
   width: 100%
+  padding: 2em
 
 .grid-2-2
   display: grid
   gap: 2em
-  grid-template-columns: 1fr 1fr
+  grid-template-columns: 1fr 1.5fr
   grid-template-rows: 1fr 1fr
   padding: 2em
 
@@ -73,3 +74,40 @@ main
   .block-1-1
     grid-column: 2 / 3
     grid-row: 2 / 3
+
+.block-0-0
+  align-items: center
+  display: flex
+  width: 100%
+  height: 100%
+  .heading
+    h1
+      font-weight: 900
+      font-size: 2em
+      text-align: center
+
+.block-0-1
+  .plot
+    svg
+      display: block
+      height: 100%
+      width: 100%
+
+.block-1-0
+  .reference
+    a
+      color: dodgerblue
+
+.block-1-1
+  .description
+    align-items: center
+    display: flex
+    justify-content: center
+    flex-direction: column
+    p
+      font-size: 1.2em
+      padding-block-end: 1em
+
+::selection
+  background-color: #ccc
+  color: #000

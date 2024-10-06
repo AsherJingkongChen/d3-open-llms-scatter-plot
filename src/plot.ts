@@ -47,6 +47,7 @@ export function createScatterPlot(
     .attr('version', '1.1')
     .attr('width', width + margin.left + margin.right)
     .attr('height', height + margin.top + margin.bottom)
+    .attr('viewBox', `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
     .style('background-color', colorLight);
   const plot = canvas
     .append('g')
